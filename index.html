@@ -1,0 +1,221 @@
+
+<html lang="en">
+  <head>
+    <title>Bootstrap 5 </title>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"></script>
+    <style>
+    .fakeimg {
+      height: 200px;
+      background: #aaa;
+    }
+    </style>
+  </head>
+  <body>
+  
+  <div class="p-5 bg-primary text-white text-center">
+    <h1>My First Bootstrap 5 Page</h1>
+    <p>Learn to Code!</p> 
+    <p>With the world's largest web developer site!</p> 
+  </div>
+  
+  <nav class="navbar navbar-expand-sm navbar-dark bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="javascript:void(0)"></a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mynavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="mynavbar">
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item">
+            <a class="nav-link" href="javascript:void(0)">Tutorial</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://getbootstrap.com/docs/5.0/getting-started/introduction/">Documentos</a>
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Buscar
+              </a>
+              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                <li><a class="dropdown-item" href="https://www.w3schools.com/tags/default.asp">HTML</a></li>
+                <li><a class="dropdown-item" href="https://www.w3schools.com/cssref/default.asp">CSS</a></li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="https://www.w3schools.com/jsref/default.asp">JAVASCRIPT</a></li>
+              </ul>
+        </ul>
+        <form class="d-flex">
+          <input class="form-control me-2" type="text" placeholder="Search">
+          <div>
+           
+            <a href="Untitled-2.html" class="btn btn-primary">Login</a>
+          </div>
+         
+        </form>
+      </div>
+    </div>
+  </nav>
+  
+  <div class="container mt-5">
+    <div class="row">
+      <div class="col-sm-4">
+
+        <h3 class="mt-4">¿Qué es Bootstrap?</h3>
+        <hr>
+        <p class="text-left"> Bootstrap es un marco front-end gratuito para un desarrollo web más rápido y fácil.
+          <br>Bootstrap incluye plantillas de diseño basadas en HTML y CSS para tipografía, formularios, 
+          botones, tablas, navegación, modales, carruseles de imágenes y muchos otros, así como complementos de JavaScript opcionales.<br>
+          Bootstrap también le brinda la capacidad de crear fácilmente diseños receptivos</p>
+          
+          <h3 class="mt-4">¿Qué es el Diseño Web Responsivo?</h3>
+
+          <p class="text-left"> El diseño web receptivo se trata de crear sitios 
+            web que se ajusten automáticamente para verse bien en
+          todos los dispositivos, desde teléfonos pequeños hasta computadoras de escritorio grandes.</p>
+             
+          <h3 class="mt-4">¿Por qué usar Bootstrap?</h3>
+          <P>  Ventajas de Bootstrap:</P>
+
+          <p class="text-left"><b>Fácil de usar:</b> cualquier persona con conocimientos básicos de HTML y CSS puede comenzar a usar Bootstrap.<br>
+          <b> Funciones receptivas:</b> el CSS receptivo de Bootstrap se ajusta a teléfonos, tabletas y computadoras de escritorio.<br>
+        <b> Enfoque móvil primero:</b> en Bootstrap, los estilos móviles primero son parte del marco central.
+      <b> Compatibilidad con navegadores:</b> Bootstrap 5 
+            es compatible con todos los navegadores modernos (Chrome, Firefox, 
+            Edge, Safari y Opera). Tenga en cuenta que si necesita soporte para IE11
+             y versiones anteriores, debe usar BS4 o BS3.</p>
+      </hr>
+      
+<div class="container mt-3">
+
+  <div class="dropdown">
+    <button type="button" class="btn btn-primary dropdown-toggle" data-bs-toggle="dropdown">
+      Front-end
+    </button>
+    <ul class="dropdown-menu">
+      <li><a class="dropdown-item" href="https://www.w3schools.com/html/default.asp">HTML</a></li>
+      <li><a class="dropdown-item" href="https://www.w3schools.com/css/default.asp">CSS</a></li>
+      <li><a class="dropdown-item" href="https://www.w3schools.com/js/default.asp">JAVASCRIPT</a></li>
+      <li><hr class="dropdown-divider"></li>
+      <li><a class="dropdown-item" href="https://www.w3schools.com/sql/default.asp">SQL</a></li>
+    </ul>
+  </div>
+</div>
+        <hr class="d-sm-none">
+      </div>
+      <div class="col-sm-8">
+       <!-- Carousel -->
+<div id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+  
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQXF5gBXAUCdMBSTpZLm8WQQRh0V_F-SggA3A&usqp=CAU" alt="Los Angeles" class="d-block" style="width:80%">
+    </div>
+    <div class="carousel-item">
+      <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQY6EPpNeYpff936L4UvamFFnwmMgVhsC13g&usqp=CAU" alt="Chicago" class="d-block" style="width:80%">
+    </div>
+    <div class="carousel-item">
+      <img src=" https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSACGG6OOuR0WI-8Tnsn4fw_OCi67LJTSF73w&usqp=CAU" alt="New York" class="d-block" style="width:80%">
+    </div>
+  </div>
+  
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
+ <!--Form-->
+ 
+    <div class="col-sm-9" id="Form">
+    <br><br><div class="shadow-lg p-3 mb-5 bg-white rounded"> 
+     <div class="container "> 
+      <h2 class="mt-5">Formulario De Inscripciones</h2>
+    
+        
+      <form>
+        <!-- 2 column grid layout with text inputs for the first and last names -->
+        <div class="row mb-3">
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form3Example1" class="form-control" />
+              <label class="form-label" for="form3Example1">First name</label>
+            </div>
+          </div>
+          <div class="col">
+            <div class="form-outline">
+              <input type="text" id="form3Example2" class="form-control" />
+              <label class="form-label" for="form3Example2">Last name</label>
+            </div>
+          </div>
+        </div>
+      
+        <!-- Email input -->
+        <div class="form-outline mb-3">
+          <input type="email" id="form3Example3" class="form-control" />
+          <label class="form-label" for="form3Example3">Email address</label>
+        </div>
+      
+        <!-- Password input -->
+        <div class="form-outline mb-3">
+          <input type="password" id="form3Example4" class="form-control" />
+          <label class="form-label" for="form3Example4">Password</label>
+        </div>
+    
+    <!-- 2 column grid layout with text inputs for the first and last names -->
+    <div class="row mb-3">
+      <div class="col">
+        <div class="form-outline">
+          <input type="date" id="form3Example1" class="form-control" />
+          <label class="form-label" for="form3Example1">Date</label>
+        </div>
+      </div>
+      <div class="col">
+        <div class="form-outline">
+          <select  name="opcion"  class="form-control">
+            <option selected >Hombre</option>
+            <option >Mujer</option></select>
+          <label class="form-label" for="form3Example2">Sexo</label>
+          
+        </div>
+        <button type="submit" class="btn btn-primary btn-block  mb-4 white text-center ">Sign up</button>
+    
+      </form>
+    </div>
+        </div>
+      </div>
+    </div>
+      </div>
+    </div>
+  </div>
+  <div class="container mt-3">
+              
+    <ul class="pagination justify-content-center">
+    <li class="page-item"><a class="page-link" href="javascrispt(0);">Previous</a></li>
+    <li class="page-item"><a class="page-link" href="javascrispt(0);">1</a></li>
+    <li class="page-item active"><a class="page-link" href="javascrispt(0);">2</a></li>
+    <li class="page-item"><a class="page-link" href="javascrispt(0);">3</a></li>
+    <li class="nav-item">
+                <a class="nav-link" href="https://getbootstrap.com/docs/5.1/components/navbar/">Next</a>
+              </li>
+    
+  </ul>
+</div>
+  
+  <div class="mt-5 p-4 bg-dark text-white text-center">
+    <p>© 2022 Copyright: MDBootstrap.com</p>
+  </div>
+  
+  </body>
+  </html>
+  
